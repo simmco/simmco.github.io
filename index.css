@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 
 .navbar .navbar-brand {
   font-size: 25px;
-  padding-top: 15px;
+  padding-top: 15px; 
 }
 
 .navbar .navbar-brand:hover {
@@ -24,7 +24,7 @@ color: rgb(255, 82, 82);
 .selected {
   color:green;
 }
-
+  
 ul.nav a:hover { color: rgb(255, 82, 82) !important; }
 
 h1 {
@@ -61,17 +61,18 @@ h1 {
 
 #header {
   margin-top: 30px;
-  margin-bottom:15px;
+  margin-bottom:20px;
+  padding-bottom:30px;
   text-align: center;
 }
 
 #portfolio {
-
+  
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   border-color: rgb(255, 82, 82);
   padding-top: 20px;
-
+  
 }
 
 
@@ -80,7 +81,7 @@ h1 {
   border-width: 1px;
   border-style:solid;
   border-color:rgb(255, 82, 82);
-}
+} 
 
 
 .btn-circle.btn-xl {
@@ -100,3 +101,4 @@ h1 {
   border-width: 2px;
   border-color: rgb(255, 82, 82);
 }
+
