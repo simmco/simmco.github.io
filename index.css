@@ -1,0 +1,102 @@
+body {
+background-color: #faf9f4;
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #faf9f4;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(255, 82, 82);
+  font-size: 18px;
+  font-color: green;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.navbar .navbar-brand:hover {
+color: rgb(255, 82, 82);
+}
+
+.selected {
+  color:green;
+}
+
+ul.nav a:hover { color: rgb(255, 82, 82) !important; }
+
+h1 {
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+
+#intro {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: rgb(255, 82, 82);
+}
+
+#about {
+  padding: 40px 20px 40px 20px;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: rgb(255, 82, 82);
+  text-align: center;
+}
+
+#skills {
+  padding: 40px 20px 40px 20px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(255, 82, 82);
+  text-align: center;
+}
+
+
+#header {
+  margin-top: 30px;
+  margin-bottom:15px;
+  text-align: center;
+}
+
+#portfolio {
+
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(255, 82, 82);
+  padding-top: 20px;
+
+}
+
+
+
+ .thumbnail:hover {
+  border-width: 1px;
+  border-style:solid;
+  border-color:rgb(255, 82, 82);
+}
+
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  margin: 5px 5px 50px 10px;
+  padding: 9px 7px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+  background-color: #faf9f4;
+}
+
+.btn-default:hover {
+  background-color: #faf9f4;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 82, 82);
+}
